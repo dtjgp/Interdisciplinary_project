@@ -1,0 +1,3 @@
+打包的文件中包括了所有涉及到的模块：
+其中Multiagent_regulator.py为regulator运行代码，Multiagent_retailor.py为retailor运行代码,Multiagent_retailor_automation.py为自动化处理数据
+运行所需要的文件为提前进行预处理之后的customer_consumption_total.csv文件
