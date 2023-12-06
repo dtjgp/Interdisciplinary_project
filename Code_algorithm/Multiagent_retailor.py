@@ -34,7 +34,6 @@ class Person(Agent):
     # unique_id: agent的唯一标识符
     def __init__(self, unique_id, model): 
         super().__init__(unique_id, model) # 根据unique_id, 调取用户数据来匹配每一个用户的用电数据
-        
         self.contract_number = self.get_contract_number() # 定义用户的合同编号
         self.old_contract = self.contract_number # 定义用户的旧合同编号
         self.type = self.get_type() # 定义用户的类型，0为高用电量用户，1为中用电量用户，2为低用电量用户，这部分在下面有专门的方法来定义
